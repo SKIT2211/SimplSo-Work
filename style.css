@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    width: 1512px;
+    height: 2842px;
+    background: #FFF5F5;
+    margin: 0 auto;
+}
+
+.container {
+    position: absolute;
+    width: 1512px;
+    height: 94px;
+    left: 0px;
+    top: 20px;
+    background: #FDF6F0;
+}
+
+.container img {
+    position: absolute;
+    width: 88px;
+    height: 58px;
+    left: 50px;
+    top: 18px;
+    font-family: 'Sacramento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.right {
+    position: absolute;
+    width: 443px;
+    height: 25px;
+    left: 710px;
+    top: 34px;
+    display: flex;
+    width: 50vw;
+}
+
+#list-menu {
+    display: flex;
+    padding: 0 5px;
+    width: 100%;
+}
+
+#list-menu a {
+    padding: 0 30px;
+}
+
+li {
+    position: absolute;
+    width: 57px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.profile-el {
+    position: relative;
+    width: 5px;
+    height: 31px;
+    left: 128px;
+    top: 3px;
+    opacity: 0.6;
+    display: flex;
+}
+
+main {
+    position: absolute;
+    width: 1512px;
+    height: 776px;
+    left: 0px;
+    top: 94px;
+    background: linear-gradient(0deg, rgba(227, 174, 177, 0.4), rgba(227, 174, 177, 0.4)), url(./banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+main h3 {
+    position: absolute;
+    width: 547px;
+    height: 126px;
+    left: 150px;
+    top: 250px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+    color: #1C070A;
+}
+
+main p {
+    position: absolute;
+    width: 423px;
+    height: 136px;
+    left: 150px;
+    top: 400px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#shop-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 68px;
+    gap: 10px;
+    position: absolute;
+    width: 258px;
+    height: 56px;
+    left: 150px;
+    top: 600px;
+    background: #740413;
+    border-radius: 100px;
+}
+
+main a {
+    width: 122px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.our-product {
+    position: absolute;
+    width: 248px;
+    height: 50px;
+    left: 630px;
+    top: 960px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1C070A;
+    margin-top: 90px;
+}
+
+.product-box {
+    position: absolute;
+    width: 370px;
+    height: 587.34px;
+    left: 115px;
+    top: 1181px;
+    background: #FFF8F2;
+    box-shadow: 0px 25.8741px 38.8112px rgba(0, 0, 0, 0.1);
+    border-radius: 12.9371px;
+}
+
+.product-box2 {
+    position: absolute;
+    width: 370px;
+    height: 587.34px;
+    left: 562px;
+    top: 1181px;
+    background: #FFF8F2;
+    box-shadow: 0px 25.8741px 38.8112px rgba(0, 0, 0, 0.1);
+    border-radius: 12.9371px;
+}
+
+.product-box3 {
+    position: absolute;
+    width: 370px;
+    height: 587.34px;
+    left: 1009px;
+    top: 1091px;
+    background: #FFF8F2;
+    box-shadow: 0px 25.8741px 38.8112px rgba(0, 0, 0, 0.1);
+    border-radius: 12.9371px;
+}
+
+.product-img .like img {
+    position: absolute;
+    left: 2.33%;
+    right: 8.33%;
+    top: 1.67%;
+    bottom: 11.82%;
+}
+
+.product-img .main-preview img {
+    position: absolute;
+    width: 277px;
+    height: 240px;
+    left: 46px;
+    top: 155px;
+}
+
+.product-img p {
+    position: absolute;
+    width: 275.56px;
+    height: 34px;
+    left: 46.57px;
+    top: 432.1px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.2308px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.discount {
+    position: absolute;
+    width: 75.03px;
+    height: 51.75px;
+    left: 284.62px;
+    top: 15.52px;
+    background: #F0E1DD;
+    border-radius: 10.3497px;
+}
+
+.discount h3 {
+    position: absolute;
+    width: 52px;
+    height: 25px;
+    left: 11.64px;
+    top: 16.82px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.6993px;
+    line-height: 25px;
+    color: #1C070A;
+}
+
+.product-img .add-cart {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 155px;
+    top: 495px;
+    cursor: pointer;
+}
+
+.add-cart #vertical {
+    position: absolute;
+    width: 31.02px;
+    height: 0px;
+    left: 13px;
+    top: 28.01px;
+    border: 3px solid #C7B6A9;
+    transform: rotate(-90deg);
+}
+
+.add-cart #horizantal {
+    position: absolute;
+    width: 31.02px;
+    height: 0px;
+    left: 13px;
+    top: 28px;
+    border: 3px solid #C7B6A9;
+    transform: rotate(-180deg);
+}
+
+.add-cart .circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    border: 3px solid #C7B6A9;
+    border-radius: 50px;
+}
+
+
+/*customer support css section*/
+
+.customer-services .services1 {
+    position: absolute;
+    width: 430px;
+    height: 224px;
+    left: 55px;
+    top: 1873px;
+    background: #DBD6D6;
+}
+
+.customer-services .services2 {
+    position: absolute;
+    width: 430px;
+    height: 224px;
+    left: 545px;
+    top: 1873px;
+    background: #DBD6D6;
+    display: flex;
+}
+
+.customer-services .services3 {
+    position: absolute;
+    width: 430px;
+    height: 224px;
+    left: 1035px;
+    top: 1873px;
+    background: #DBD6D6;
+}
+
+.services1 h3 {
+    position: absolute;
+    width: 165px;
+    height: 30px;
+    left: 22px;
+    top: 57px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.services2 h3 {
+    position: absolute;
+    width: 214px;
+    height: 30px;
+    left: 22px;
+    top: 57px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.services3 h3 {
+    position: absolute;
+    width: 147px;
+    height: 30px;
+    left: 22px;
+    top: 57px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.services1 p {
+    position: absolute;
+    width: 178px;
+    height: 24px;
+    left: 18px;
+    top: 101px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.services2 p {
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    left: 18px;
+    top: 101px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.services3 p {
+    position: absolute;
+    width: 214px;
+    height: 24px;
+    left: 18px;
+    top: 101px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.shipment-truck img {
+    position: absolute;
+    left: 60%;
+    right: -100%;
+    top: 25.75%;
+    bottom: 12.5%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    color: #FFFFFF;
+    ;
+}
+
+.Contact-img img {
+    position: absolute;
+    left: 70.46%;
+    right: -74.38%;
+    top: 25.33%;
+    bottom: 8.33%;
+    color: #FFFFFF;
+}
+
+.money-back img {
+    position: absolute;
+    left: 68.33%;
+    right: 8.33%;
+    top: 25.33%;
+    bottom: 8.33%;
+    color: #FFFFFF;
+}
+
+.offer-section {
+    position: absolute;
+    width: 1512px;
+    height: 606px;
+    left: 0px;
+    top: 2236px;
+    background: #FFD7D7;
+}
+
+.offer-section h3 {
+    position: absolute;
+    width: 297px;
+    height: 50px;
+    left: 154px;
+    top: 64px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #382527;
+}
+
+.offer-section h1 {
+    position: absolute;
+    width: 441px;
+    height: 150px;
+    left: 144px;
+    top: 166px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 150px;
+    color: #1C070A;
+}
+
+.offer-section p {
+    position: absolute;
+    width: 584px;
+    height: 108px;
+    left: 85px;
+    top: 342px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.offer-section h4 {
+    position: absolute;
+    width: 130px;
+    height: 36px;
+    left: 301px;
+    top: 454px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.offer-section button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 68px;
+    gap: 10px;
+    position: absolute;
+    width: 202.08px;
+    height: 39.37px;
+    left: 287px;
+    top: 527.52px;
+    background: #850012;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.offer-section button span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.6611px;
+    line-height: 21px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.offer-section .offer-img {
+    position: absolute;
+    width: 756px;
+    height: 610.17px;
+    left: 756px;
+    top: 0px;
+    background: url(./Photos/offerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
